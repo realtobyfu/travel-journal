@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1a1a1a;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -65,4 +65,126 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #F55A5A;
+  color: white;
+  height: 55px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
+
+/* my travel journal. */
+
+.nav-title {
+  margin-left: 8px;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  font-optical-sizing: auto;
+}
+
+.earth-logo {
+  margin-top: 5px;
+  margin-left: auto;
+  color: white;
+  font-size: 25px;
+}
+/* section for cards */
+.card {
+  /*flex-direction: column;*/
+  display: inline-flex;
+  width: 550px;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.card-image {
+  /*position: absolute;*/
+  object-fit: cover;
+  object-position: left bottom;
+  width: 125px;
+  height: 168px;
+  /*margin-left: 40px;*/
+  border-radius: 5px;
+}
+
+.card-details {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.loc-icon {
+  color: #F55A5A;
+  font-size: 10px;
+}
+
+.card-location {
+  margin-left: 5px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #2B283A;
+}
+
+.card-googlemap-link{
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+  text-decoration-line: underline;
+
+  color: #918E9B;
+  margin-left: 12px;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 5px;
+}
+
+.card-dates{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+
+}
+
+.card-description{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  /* or 15px */
+}
+
+.seperator {
+  width: 90%;
+  border: 1px solid #F5F5F5;
 }
